@@ -153,6 +153,11 @@ function sumarLikesDeUsuario(usuario) {
          totalLikes += usuario.posts[i].likes;
     }
 
+    // se puede usar el loop for... of
+    // for (const element of usuario.posts){
+    //  ....
+    // }
+
     return totalLikes;
 
 }
